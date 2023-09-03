@@ -1,0 +1,20 @@
+// Payload for creating blog
+
+{
+    "author":"John",
+    "title":"How not to cook food",
+    "body": "This is a book to read for not sleeping",
+    "comment": "this is noce sha"
+  }
+
+  {
+    "id": "3e2ad120-765a-4de2-b8e4-0f5b2a0dd9e3",
+  }
+
+  {
+    "title": "How not to cook food",
+    "author": "John",
+    "body": "This is a book to read for not sleeping",
+    "comment": "this is noce sha",
+    "id": "3e2ad120-765a-4de2-b8e4-0f5b2a0dd9e3",
+  }
