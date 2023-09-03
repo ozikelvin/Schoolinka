@@ -1,6 +1,6 @@
 # Blog Post Application
 
-## To Bootstrap Application
+## Bootstrap Application
 
 To run this application kindly install all dependencies by running Yarn install
 
@@ -13,17 +13,18 @@ There are two ways of starting this application
 
 ## Application Endpoints and Payload
 
-#### Note:
+#### Note
+
     All the request methods on this application was made a Post request this was done for security reasons, tho not necessary for the application but just an addition.
 
-* /create-blog : This endpoint is for creating a blog post and the payload expected to be passed for this endpoint are : 
+* /create-blog : This endpoint is for creating a blog post and the payload expected to be passed for this endpoint are :
   {
 "title": "",
 "author": "",
 "body": "",
 "comment": ""
 }
-* /get-blogs : This endpoint is a paginated endpoint for getting all blog post on the system and the expected payload to be passed are : 
+* /get-blogs : This endpoint is a paginated endpoint for getting all blog post on the system and the expected payload to be passed are :
   {
   "page":2,
   "limit":3
@@ -31,7 +32,7 @@ There are two ways of starting this application
 
 * /get-blog : This endpoint is used for get a blog by its id, and the expected payload to be passed is : {"id":""}
   
-* /update-blog : This endpoint is used to update an exsiting blog and the payload to be passed are : 
+* /update-blog : This endpoint is used to update an exsiting blog and the payload to be passed are :
    {
     "title": "How not to cook food",
     "author": "John",
