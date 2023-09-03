@@ -1,5 +1,12 @@
-import { Router} from 'express';
-import { createBlog , getAllBlogs, getBlog, deleteBlog, updateBlog , searchBlog } from '../Controller/blog.controller';
+import { Router } from "express";
+import {
+	createBlog,
+	getAllBlogs,
+	getBlog,
+	deleteBlog,
+	updateBlog,
+	searchBlog,
+} from "../Controller/blog.controller";
 
 const routes = Router();
 
@@ -16,7 +23,7 @@ routes.post("/get-blogs", getAllBlogs);
 routes.post("/update-blog", updateBlog);
 
 // Delete blog
-routes.post("/delete-blog" , deleteBlog);
+routes.post("/delete-blog", deleteBlog);
 
 // Search Blog
 routes.post("/search-blog", searchBlog);

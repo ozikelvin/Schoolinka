@@ -1,20 +1,19 @@
 export interface PostI {
- 
-    author: string;
+	author: string;
 
-    title: string;
+	title: string;
 
-    body: string;
+	body: string;
 
-    comment: string;
-};
+	comment: string;
+}
 
 export interface PostPaginationI {
-    page:number;
+	page: number;
 
-    limit:number;
+	limit: number;
 }
 
 export interface UpdatePostI extends PostI {
-    id:string;
+	id: string;
 }
